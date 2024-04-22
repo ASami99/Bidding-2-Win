@@ -5265,13 +5265,13 @@ h2 .dot,h3 .dot,h4 .dot {
 }
 
 .bs-120 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     line-height: 0
 }
 
 .bs-160 {
-    font-size: clamp(24px,11.2vw,180px);
-    line-height: 0
+    font-size: 48px;
+    
 }
 
 .bs-180 {
@@ -5296,7 +5296,7 @@ h2 .dot,h3 .dot,h4 .dot {
 
 @media only screen and (max-width: 768px) {
     .bs-160 {
-        font-size:17vw
+        font-size:17px
     }
 
     .bs-240 {
@@ -6255,8 +6255,9 @@ article.testimonial h3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
+    /* -ms-flex-pack: justify; */
     justify-content: space-between
 }
 
@@ -6564,7 +6565,7 @@ article.testimonial h3 {
 }
 
 #hero h1 div {
-    line-height: 0.8
+    line-height: 1;
 }
 
 #hero h1 .hero-img {
@@ -10715,7 +10716,7 @@ ul.service-list li:last-of-type a {
     }
 
     .home #work .bs-160 {
-        font-size: 26vw
+        font-size: 26px
     }
 
     .bs-240 {
